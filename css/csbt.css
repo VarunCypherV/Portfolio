@@ -1,0 +1,65 @@
+body {
+  background-image: url('../images/bgggg.jpg');
+  background-size:cover;
+
+}
+
+.coverpage{
+  color:white;
+  font-family: 'Montserrat', serif;
+  font-size:72px;
+  text-align: center;
+  margin:13% auto auto auto;
+}
+
+.hello{
+  position: absolute;
+  right:75%;
+  color:white;
+  font-family: Playfair, serif;
+  font-size:26px;
+  margin:-2% auto auto auto;
+
+}
+#he{
+  color:black;
+}
+.explore{
+  position: absolute;
+  right:15%;
+  color:white;
+  font-family: Playfair, serif;
+  font-size:26px;
+  margin:2% auto auto auto;
+}
+.buttoncoverpg {
+  background: #ff8400;
+  background-image: -webkit-linear-gradient(top, #ff8400, #ffb300);
+  background-image: -moz-linear-gradient(top, #ff8400, #ffb300);
+  background-image: -ms-linear-gradient(top, #ff8400, #ffb300);
+  background-image: -o-linear-gradient(top, #ff8400, #ffb300);
+  background-image: linear-gradient(to bottom, #ff8400, #ffb300);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 0 1px 3px #666666;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin:5% 0 0 0;
+  position: absolute;
+  left:75%;
+
+}
+
+.buttoncoverpg:hover {
+  background: #ff00ea;
+  background-image: -webkit-linear-gradient(top, #ff00ea, #3498db);
+  background-image: -moz-linear-gradient(top, #ff00ea, #3498db);
+  background-image: -ms-linear-gradient(top, #ff00ea, #3498db);
+  background-image: -o-linear-gradient(top, #ff00ea, #3498db);
+  background-image: linear-gradient(to bottom, #ff00ea, #3498db);
+  text-decoration: none;
+}
