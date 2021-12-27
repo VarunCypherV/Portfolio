@@ -60,54 +60,46 @@ body{
 }
 .maintop{
   background-image: url('../images/pexels-magda-ehlers-1279813 - Copy.jpg');
-  position: relative;
-  display:block;
   background-size:cover;
   height:725px;
 
 
 }
 .profilepic{
-  position: relative;
+  position: absolute;
+  top:30%;
   left:20%;
-  margin-top:15%;
 
   width:125px;
   height:125px;
   border-radius: 50%;
 }
 .profiletext1{
-  display:inline-block;
-  position: relative;
+  position:absolute;
+  top:25%;
   left:30%;
-  bottom:150px;
-  width:100%;
   color: white;
   font-size: 28px;
   font-weight: bold;
   font-family: monospace;
 }
 .profiletext{
-  display:inline-block;
-  position: relative;
+  position:absolute;
+  top:35%;
   left:30%;
-  bottom:150px;
-  width:100%;
   color: white;
   font-size: 48px;
   font-weight: bold;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 .profiletext3{
-  display:inline-block;
-  position: relative;
+  position:absolute;
+  top:50%;
   left:30%;
-  bottom:150px;
-  width:100%;
   color: white;
   font-size: 24px;
   font-weight: bold;
-  font-family: cursive;
+  font-family: monospace;
 }
 .skillz{
   padding-top: 5%;
@@ -157,4 +149,28 @@ body{
     top: 0;
     left: 0;
     min-height: 500px;
+}
+.contact{
+  height:150px;
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  text-align: center;
+
+}
+#Cont{
+  position: relative;
+  top:10px;
+  color:black;
+  font-weight:normal;
+  font-size: 28px;
+  text-align: center;
+  color:#72F86F;
+}
+.contpic{
+  margin-right:10px;
+  width:50px;
+  height:50px;
+  padding-left:19px;
+  padding-top: 15px;
+
 }
