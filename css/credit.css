@@ -1,0 +1,17 @@
+body{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(221,49,49,1) 0%, rgba(119,0,0,1) 90% );
+}
+h1{
+  color:white;
+  font-size: 48px;
+  text-align: center;
+}
+.creditroll{
+  color:white;
+  font-size: 24px;
+  text-align: center;
+  list-style-type:none
+}
+.creditroll.li{
+  list-style-type:none;
+}
